@@ -5,6 +5,10 @@
 body{
 	font-family: Cinzel;
 }
+.graphicdesign-p{
+  text-align: center;
+  color: black;
+}
 #container-photo{
 	margin-top:5em;
 	padding-left: 20%;
@@ -276,10 +280,20 @@ ul{
 #return-to-cata:hover p {
     color: #fff;
 }
+#container-graphicdesign{
+  margin-top: 15em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
 @media only screen and (max-width: 767px) {
     body {
         padding: 0 0 0 0;
         margin: 0 0 0 0;
+    }
+    #container-graphicdesign{
+      margin-top: 5em;
+      margin-left: 3em;
+      margin-right: 3em;
     }
     .word{
     	margin-left: 5%;
