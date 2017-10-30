@@ -1,0 +1,12 @@
+.navlist{
+	margin-top: 10em;
+	margin-bottom: 7em;
+	margin-left: 3em;
+}
+.fit{
+	max-width: 99%;
+	max-height: 99%;
+}
+body{
+	overflow: hidden;
+}

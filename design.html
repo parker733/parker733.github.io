@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PARKER LEE - Design</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/hamburger.css" rel="stylesheet">  
+  <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/slick-lightbox/dist/slick-lightbox.css">
+  
+</head>
+<body>
+  <div class="topnavbar">
+    <h1><a href="index.html">PARKER LEE</a> <span>DESIGN & PHOTOGRAPHY</span></h1>
+
+    <input id="burger" type="checkbox" />
+    <label for="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav>
+      <ul>
+        <li><a></a></li><li><a></a></li>
+        <li><a class="navitem" href="graphicdesign.html">graphic design</a></li>
+        <li><a class="navitem" href="photography.html">photography</a></li>
+        <li><a class="navitem" href="about.html">about</a></li>
+        <li><a class="navitem ig_logo" id="img1" target="_blank" href="https://www.instagram.com/parker_733" ><img src="img/logo/Black_Instagram_icon.svg.png" width="5%"></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container-fluid">
+    <div class="row" id="captions-demo">
+      <div class="col-md-6 col-sm-6 col-xs-6 snow-gallery">
+        <div class="imgbox-2">
+          <a href="img/design/design/1.1.png" data-caption="asymmetry" class="thumbnail"><img src="img/design/design/1.1.png" width="100%"></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6 snow-gallery">
+        <div class="imgbox-2">
+          <a href="img/design/design/2.1.png" data-caption="asymmetry" class="thumbnail"><img src="img/design/design/2.1.png" width="100%"></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6 snow-gallery">
+        <div class="imgbox-2">
+          <a href="img/design/design/3.1.png" data-caption="rhythm" class="thumbnail"><img src="img/design/design/3.1.png" width="100%"></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6 snow-gallery">
+        <div class="imgbox-2">
+          <a href="img/design/design/4.1.png" data-caption="change" class="thumbnail"><img src="img/design/design/4.1.png" width="100%"></a>
+        </div>
+      </div>
+    </div>    
+  <!-- Return to Top -->
+    <a href="javascript:" id="return-to-top"><p style="color: white">Top</p></a>
+    <!-- Return to Top -->
+    <a href="graphicdesign.html" id="return-to-cata"><p class="w">Cata</p></a>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
+  <script type="text/javascript" src="bower_components/slick-lightbox/dist/slick-lightbox.min.js"></script>
+  <script type="text/javascript">
+    $('#captions-demo').slickLightbox({
+      caption: 'caption',
+      useHistoryApi: 'true'
+    });
+  // ===== Scroll to Top ==== 
+  $(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+    });
+$('#return-to-top').click(function() {      // When arrow is clicked
+  $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+      }, 500);
+});
+</script>
+</body>
+</html>
+

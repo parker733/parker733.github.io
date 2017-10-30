@@ -1,0 +1,76 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.float_ul {
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  padding-left: 0;
+  margin-left: 0;
+  left: 0;
+  transform: translateY(-50%);
+}
+.float_ul li a {
+  display: block;
+  margin-left: -2px;
+  height: 60px;
+  width: 60px;
+  border-radius: 0 25px 25px 0;
+  border: 2px solid #000;
+  background: #FFF;
+  margin-bottom: 1em;
+  transition: all .4s ease;
+  color: #2980b9;
+  text-decoration: none;
+  line-height: 60px;
+  position: relative;
+}
+.float_ul li a:hover {
+  cursor: pointer;
+  width: 180px;
+  color: #fff;
+}
+.float_ul li a:hover span {
+  left: 0;
+}
+.float_ul li a span {
+  padding: 0 30px 0 15px;
+  position: absolute;
+  left: -200px;
+  transition: left .4s ease;
+}
+.float_ul li a i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+.float_ul li .design {
+  background: white;
+  border-color: white;
+  color: black;
+}
+.float_ul li .design:hover {
+  background: black;
+  color: white;
+}
+.float_ul li .photography {
+  background: black;
+  border-color: black;
+  color: white;
+}
+.float_ul li .photography:hover {
+  background: white;
+  color: black;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
