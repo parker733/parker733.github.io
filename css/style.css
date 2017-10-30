@@ -295,6 +295,11 @@ ul{
       margin-left: 3em;
       margin-right: 3em;
     }
+    #container-index{
+      margin-top: 1em;
+      margin-left: 3em;
+      margin-right: 3em; 
+    }
     .word{
     	margin-left: 5%;
     	margin-right: 5%;
@@ -320,7 +325,7 @@ ul{
 		pointer-events: none;
 	}
   .row-index{
-    padding-top: 3em;
+    padding-top: 1em;
   }
 	.page-header h1{
 		font-size: 28px;
