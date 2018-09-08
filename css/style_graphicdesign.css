@@ -98,7 +98,22 @@ a:hover{
 	margin-top: 10%;
 	width: 40%;
 }
+.topright-text{
+	top: 10%;
+	position: fixed;
+	left: 75%;
+	z-index: 1;
+	margin-right: 5%;
+}
+.topright-heading{
+	font-weight: 500;
+	font-size: 1.5em;
+	background-color: yellow;
+}
+.topright-description{
+	line-height: 1.3em;
 
+}
 .come-in {
   transform: translateY(150px);
   animation: come-in 0.8s ease forwards;
