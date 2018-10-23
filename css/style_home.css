@@ -272,7 +272,10 @@ img{
 }
 
 @media (max-width:900px){
-
+  .bot-left-text{
+    padding-top: 0px;
+    text-align: center;
+  }
   body{
     font-size: 0.7em;
   }
