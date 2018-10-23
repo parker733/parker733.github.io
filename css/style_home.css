@@ -268,14 +268,19 @@ img{
 }
 #about{
   padding-top: 40px;
+  padding-right: 30px;
 }
+.col-5{}
+
 @media (max-width:1350px){
 
 }
 
 @media (max-width:900px){
+
   #about{
     padding-top: 0px;
+    padding-right: 10px;
   }
   .bot-left-text{
     padding-top: 0px;
@@ -357,6 +362,19 @@ img{
   }
 }
 @media (max-width: 465px) {
+  #overlay .border{
+    background-color: blue;
+    color: white;
+  }
+  #myname a .border{
+    font-size: 35px;
+  }
+  .border{
+    font-size: 16px;
+  }
+  .underline2{
+    font-size: 12px;
+  }
   .col-10 a img{
     width: 48%;
   }
@@ -372,6 +390,24 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 45%;
+  }
+  .col-5{
+    flex: none !important; 
+    max-width: none !important; 
+  }
+  .col-5 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+  .col-7{
+    flex: none !important; 
+    max-width: none !important; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
   }
 }
 
