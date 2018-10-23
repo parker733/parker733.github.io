@@ -13,8 +13,15 @@
 	max-width: 99%;
 	max-height: 99%;
 }
-.col-10 a img{
+#index_col a img{
   width: 31%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.col-10 a img{
+  width: 48%;
   margin-top: 0.5%;
   margin-bottom: 1%;
   margin-left: 0.5%;
@@ -24,7 +31,6 @@
   margin-bottom: 35px;
 }
 .border p{
-  padding-top: 8px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -32,13 +38,25 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+.border:hover{
+  color: #f88379;
+}
 .border{
-  border: 1px solid white!important
+  border: 0 none !important;
 }
 .underline{
   text-decoration: underline;
   text-decoration-color: blue;
 }
+.underline2{
+  /*border: 1px solid blue;*/
+  color: #f88379; /*#63A088/*#3C3744*/;
+  font-size: 8px;
+}
+.underline2:hover{
+  color: blue;
+}
+
 body{
   font-family: 'Karla', sans-serif;
   color: blue;
@@ -56,7 +74,16 @@ body{
 .highlight{
   background-color: blue;
   color: white;
-
+}
+.highlight:hover{
+  background-color: #f88379;
+  color: white;
+}
+.highlight span{
+  color: white;
+}
+.highlight span:hover{
+  color: white;
 }
 .row{
 	margin: 0px;
@@ -68,7 +95,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-	color: blue;
+	color: #f88379;
 	text-decoration: none;
 }
 .text-center{
@@ -250,6 +277,9 @@ img{
   body{
     font-size: 0.7em;
   }
+  #index_col a img{
+    width: 48%;
+  }
   .nav-left{
     float: none;
     width: 100%;
@@ -263,7 +293,7 @@ img{
   }
   #btn{
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   .top-bar{
     padding-bottom: 0px;
@@ -273,18 +303,14 @@ img{
   .top-bar a img{
     width: 50%;
   }
-  .col-2 a{
-  }
   .col-10{
     padding-top: 0px;
-  }
-  .col-10{
     max-width:100%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .col-10 a img{
-    width: 48%;
+    width: 48%;;
   }
 
   .navbar-side {
@@ -299,9 +325,6 @@ img{
     background-color: #f7f7f9;
     overflow-y: scroll;
     z-index: 1000;
-  }
-  .border{
-    border: 0 none;
   }
  
   .navbar-side {
@@ -328,7 +351,10 @@ img{
 }
 @media (max-width: 465px) {
   .col-10 a img{
-    width: 47%;
+    width: 48%;
+  }
+  #index_col a img{
+    width: 48%;
   }
   .col-6{
     flex: 100%; 
@@ -338,7 +364,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
   }
 }
 
