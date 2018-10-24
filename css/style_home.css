@@ -207,7 +207,8 @@ a:hover{
   font-size: 20px;
 }
 .blue{
-  color: blue;
+  color: white;
+  background-color: blue;
 }
 
 .col-2 {
