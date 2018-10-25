@@ -13,6 +13,19 @@
 	max-width: 99%;
 	max-height: 99%;
 }
+#_col{
+  margin-left: 15%;
+}
+#_col a img{
+  width: 48%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+#index_col{
+  margin-left: 15%;
+}
 #index_col a img{
   width: 31%;
   margin-top: 0.5%;
@@ -20,14 +33,7 @@
   margin-left: 0.5%;
   margin-right: 0.5%;
 }
-.col-10 a img{
-  width: 48%;
-  margin-top: 0.5%;
-  margin-bottom: 1%;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-}
-.col-10 a{
+.col-12 a{
   margin-bottom: 35px;
 }
 .border p{
@@ -245,7 +251,7 @@ img{
     display: none;
 }
 .col-12 a img{
-  width: 30%;
+  width: 50%;
   margin-top: 0.5%;
   margin-bottom: 1%;
   margin-left: 0.5%;
@@ -272,12 +278,15 @@ img{
   padding-right: 30px;
 }
 
+
 @media (max-width:1350px){
 
 }
 
 @media (max-width:900px){
-
+  #_col{
+    margin-left: 0%;
+  }
   #about{
     padding-top: 0px;
     padding-right: 10px;
@@ -289,7 +298,7 @@ img{
   body{
     font-size: 0.7em;
   }
-  #index_col a img{
+  #_col a img{
     width: 48%;
   }
   .nav-left{
@@ -315,13 +324,13 @@ img{
   .top-bar a img{
     width: 50%;
   }
-  .col-10{
+  .col-12{
     padding-top: 0px;
     max-width:100%;
     padding-left: 15px;
     padding-right: 15px;
   }
-  .col-10 a img{
+  .col-12 a img{
     width: 48%;;
   }
 
@@ -375,10 +384,10 @@ img{
   .underline2{
     font-size: 10px;
   }
-  .col-10 a img{
+  .col-12 a img{
     width: 100%;
   }
-  #index_col a img{
+  #_col a img{
     width: 48%;
   }
   .col-6{
