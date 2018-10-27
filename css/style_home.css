@@ -284,8 +284,27 @@ img{
 }
 
 @media (max-width:900px){
+  #index_col a img{
+    width: 48%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+  #index_col{
+    margin-left: 0%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
   #_col{
     margin-left: 0%;
+  }
+  #_col a img{
+    width: 98%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
   }
   #about{
     padding-top: 0px;
@@ -388,7 +407,11 @@ img{
     width: 100%;
   }
   #_col a img{
-    width: 48%;
+    width: 98%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
   }
   .col-6{
     flex: 100%; 
