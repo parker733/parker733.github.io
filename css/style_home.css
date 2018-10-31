@@ -9,6 +9,12 @@
 	margin-bottom: 7em;
 	margin-left: 3em;
 }
+.border{
+  text-align: left;
+}
+.border a{
+  text-align: left;
+}
 .fit{
 	max-width: 99%;
 	max-height: 99%;
@@ -36,14 +42,7 @@
 .col-12 a{
   margin-bottom: 35px;
 }
-.border p{
-  padding-left: 8px;
-  padding-right: 8px;
-}
-.border a{
-  padding-left: 8px;
-  padding-right: 8px;
-}
+
 .border:hover{
   color: #f88379;
 }
@@ -186,9 +185,8 @@ a:hover{
   width: 100%;
 }
 .top-bar img{
-  width: 80%;
   display: block;
-  margin: 0 auto;
+  width: 60%;
 }
 .bot{
   position: fixed;
@@ -202,7 +200,6 @@ a:hover{
   float: left;
   width: 35%;
   position: fixed;
-  text-align: center;
   padding-left: 30px;
 }
 .nav-left .top-bar #myname a{
@@ -222,7 +219,7 @@ a:hover{
     max-width: 16.666667%;
 }
 .list{
-  text-align: center;
+  text-align: left;
 }
 .content{
   padding-top: 15px;
@@ -284,6 +281,27 @@ img{
 }
 
 @media (max-width:900px){
+  .top-bar{
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .list{
+    text-align: center;
+  }
+  .border{
+  text-align: center;
+  }
+  .border a{
+    text-align: center;
+  }
+  .nav-left{
+    text-align: center;
+  }
+  .nav-left a{
+    text-align: center;
+  }
+
   #index_col a img{
     width: 48%;
     margin-top: 0.5%;
@@ -344,7 +362,9 @@ img{
     width: 100%
   }
   .top-bar a img{
-    width: 50%;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
   }
   .col-12{
     padding-top: 0px;
