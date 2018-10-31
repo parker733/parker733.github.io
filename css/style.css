@@ -21,10 +21,7 @@ body{
 	margin-left: 10em;
 	margin-right: 10em;
 }
-.about{
-	font-size: 12.5px;
-	letter-spacing: 1.2px;
-	font-kerning: normal;
+.instrution-text{
 }
 #container-face{
 	margin-top: 20px;

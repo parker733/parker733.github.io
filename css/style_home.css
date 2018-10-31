@@ -50,13 +50,9 @@
 .border{
   border: 0 none !important;
 }
-.underline{
-  text-decoration: underline;
-  text-decoration-color: blue;
-}
 .underline2{
   /*border: 1px solid blue;*/
-  color: #f88379; /*#63A088/*#3C3744*/;
+  /*#63A088/*#3C3744*/;
   font-size: 8px;
 }
 .underline2:hover{
@@ -65,7 +61,7 @@
 
 body{
   font-family: 'Karla', sans-serif;
-  color: blue;
+  color: black;
 	margin-top: 3%;
 	letter-spacing: 1px;
 	font-size: 10px;
@@ -78,18 +74,20 @@ body{
   text-align: center;
 }
 .highlight{
-  background-color: blue;
-  color: white;
+  font-weight: bold;
+  color: blue;
+  font-size: 14px;
+  /*background-color: blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: white;*/
 }
 .highlight:hover{
-  background-color: #f88379;
-  color: white;
+
 }
 .highlight span{
-  color: white;
 }
 .highlight span:hover{
-  color: white;
 }
 .row{
 	margin: 0px;
@@ -97,11 +95,11 @@ body{
 }
 a{
 	color: #A2A39F;
-  color: blue;
+  color: black;
   text-decoration: none;
 }
 a:hover{
-	color: #f88379;
+	color: blue;
 	text-decoration: none;
 }
 .text-center{
@@ -188,7 +186,7 @@ a:hover{
   width: 100%;
 }
 .top-bar img{
-  width: 100%;
+  width: 80%;
   display: block;
   margin: 0 auto;
 }
@@ -227,6 +225,7 @@ a:hover{
   text-align: center;
 }
 .content{
+  padding-top: 15px;
   float: right;
 }
 .containter-fluid{
@@ -274,8 +273,9 @@ img{
   font-size: 9pt;
 }
 #about{
-  padding-top: 40px;
+  padding-top: 20px;
   padding-right: 30px;
+  font-size: 12.5px;
 }
 
 
@@ -309,6 +309,9 @@ img{
   #about{
     padding-top: 0px;
     padding-right: 10px;
+  }
+  .bot-left-heading{
+    background-color: none;
   }
   .bot-left-text{
     padding-top: 0px;

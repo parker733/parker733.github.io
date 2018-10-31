@@ -56,6 +56,9 @@ a:hover{
 #top-text{
 
 }
+.underline i{
+	color: blue;
+}
 .col-2{
 	z-index: 1;
 }
@@ -92,7 +95,6 @@ a:hover{
 .bot-left-heading{
 	font-weight: 500;
 	font-size: 12px;
-	background-color: yellow;
 }
 .bot-left-description{
 	font-size: 9pt;
@@ -102,7 +104,9 @@ a:hover{
 	padding-right: 15px;
 	text-transform: none;
 }
-
+.title{
+	line-height: 2.0em;
+}
 
 .come-in {
   transform: translateY(150px);
