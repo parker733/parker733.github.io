@@ -10,7 +10,9 @@ body{
   color: black;
 }
 
-
+#f-img{
+  width: 50%;
+}
 
 #container-photo{
 	margin-top:5em;

@@ -189,6 +189,7 @@ a:hover{
   width: 60%;
 }
 .bot{
+  color: blue;
   position: fixed;
   left: 0;
   bottom: 10px;
@@ -262,6 +263,10 @@ img{
 }
 #fullcol a img{
   width: 100%;
+}
+
+#f-img{
+  width: 50% !important;
 }
 .col-7{
   text-align: left;
