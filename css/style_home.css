@@ -44,7 +44,7 @@
 }
 
 .border:hover{
-  color: #f88379;
+  color: blue;
 }
 .border{
   border: 0 none !important;
@@ -279,6 +279,11 @@ img{
   padding-right: 30px;
   font-size: 12.5px;
 }
+#video{
+  width: 100%; 
+
+}
+#link{ cursor: pointer; }
 
 
 @media (max-width:1350px){
