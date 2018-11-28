@@ -284,6 +284,7 @@ img{
 
 }
 #link{ cursor: pointer; }
+#link:hover{ color:blue; }
 
 
 @media (max-width:1350px){
