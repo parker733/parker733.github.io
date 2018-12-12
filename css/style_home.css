@@ -285,6 +285,9 @@ img{
 }
 #link{ cursor: pointer; }
 #link:hover{ color:blue; }
+iframe{
+  height: 600px;
+}
 
 
 @media (max-width:1350px){
@@ -424,6 +427,9 @@ img{
   }
 }
 @media (max-width: 465px) {
+  iframe{
+    height: 250px;
+  }
   #overlay .border{
     background-color: blue;
     color: white;
