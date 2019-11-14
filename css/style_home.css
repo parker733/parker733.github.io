@@ -52,7 +52,7 @@
 .underline2{
   /*border: 1px solid blue;*/
   /*#63A088/*#3C3744*/;
-  font-size: 8px;
+  font-size: 8.5px;
 }
 .underline2:hover{
   color: blue;
@@ -62,8 +62,8 @@ body{
   font-family: 'Karla', sans-serif;
   color: black;
 	margin-top: 3%;
-	letter-spacing: 1px;
-	font-size: 10px;
+	letter-spacing: .5px;
+	font-size: 12px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   text-transform: uppercase;
@@ -75,7 +75,7 @@ body{
 .highlight{
   font-weight: bold;
   color: blue;
-  font-size: 14px;
+  font-size: 16px;
   /*background-color: blue;
   text-decoration: underline;
   text-decoration-color: blue;
