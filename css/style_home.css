@@ -317,6 +317,9 @@ iframe{
 #three_col iframe{
   width: 32.5%;
 }
+#two_col_player iframe{
+  width:49%;
+}
 .halfsize-image{
   width: 48.9% !important;
 }
