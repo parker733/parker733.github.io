@@ -23,6 +23,7 @@
 
 .go_to_website:hover{
   color: blue;
+  cursor: pointer;
 }
 .go_to_website:after{
   color: blue;
