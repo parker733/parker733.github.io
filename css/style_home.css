@@ -9,6 +9,45 @@
 	margin-bottom: 7em;
 	margin-left: 3em;
 }
+.bot-left-description span{
+  color: blue;
+}
+
+/*hover effect*/
+.go_to_website{
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.go_to_website:hover{
+  color: blue;
+}
+.go_to_website:after{
+  color: blue;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -1px;
+  background: blue;
+  height: 1px;
+  transition-property: width;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+.go_to_website:hover:after,
+.go_to_website:focus:after,
+.go_to_website:active:after {
+  color: blue;
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+/*hover effect*/
+
 .border{
   text-align: left;
 }
@@ -95,9 +134,7 @@ body{
   text-align: center;
 }
 .highlight{
-  font-weight: bold;
   color: blue;
-  font-size: 16px;
   /*background-color: blue;
   text-decoration: underline;
   text-decoration-color: blue;
